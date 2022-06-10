@@ -2,8 +2,7 @@ from pydantic import BaseModel
 
 
 class Student(BaseModel):
-    id: int
-    name: str
+    nome: str
     curso: str
     idade: int
     nacionalidade: str
