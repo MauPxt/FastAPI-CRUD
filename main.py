@@ -1,8 +1,6 @@
 from fastapi import FastAPI
+from routes.index import student
 
 app = FastAPI()
 
-
-@app.get('/')
-async def hello_world():
-    return {'mensagem': 'hello world'}
+app.include_router(student)
