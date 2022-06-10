@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+
 from routes.index import student
 
 app = FastAPI()

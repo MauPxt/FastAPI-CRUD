@@ -41,6 +41,6 @@ async def update_data(id: int, student: Student):
 
 
 @student.delete("/{id}")
-async def delete_data(id:int):
+async def delete_data(id: int):
     conn.execute(students.delete().where(students.c.id == id))
     return conn.execute(students.select()).fetchall()
