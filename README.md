@@ -17,6 +17,7 @@ FastAPI
 
 MySQL
 
+## Pré-visualização
 ![img.png](img.png)
 
 # Instruções de instalação:
